@@ -1,0 +1,75 @@
+.contactUs{
+    height: fit-content;
+    /* margin: auto; */
+    padding: 27px;
+}
+.contactUs>h2{
+    color: #f5d060;;
+    border-bottom: 1px solid gray;
+    width: fit-content;
+}
+.contactUs>div>input{
+    font-size: 3vh;
+    text-align: left;
+    padding: 1vh;
+    outline: 0;
+    border-width: 0 0 0.3vh;
+    border-color: gray;
+    transition: 500ms;
+    width:100%;
+    background-color: #3837379c; 
+    color: white;
+}
+.contactUs>div>input:focus{
+    outline: 0;
+    border-width: 0 0 0.3vh;
+    border-color: #3f51b5;
+}
+.contactUs>div>textarea{
+    font-size: 3vh;
+    text-align: left;
+    padding: 1vh;
+    outline: 0;
+    border-width: 0 0 0.3vh;
+    border-color: gray;
+    transition: 500ms;
+    width:100%;
+    resize: none;
+    background-color: #3837379c;
+    color: white;
+}
+.contactUs>div>textarea:focus{
+    outline: 0;
+    border-width: 0 0 0.3vh;
+    border-color: #3f51b5;
+}
+.contactUs > div> h1{
+    font-size: 3vh;
+    text-align: left;
+    padding: 1vh 1vh 1vh 0;
+    color: wheat;
+    font-weight: 300;
+    margin: 0;
+}
+.submitButton{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background-image: linear-gradient(to right, #ffeb3b9e,#0096885e, #3f51b57d);
+    /* border-radius: 10em; */
+    color: white;
+    font-size: 24px;
+    padding: 18px;
+    transition: 500ms;
+    
+}
+.submitButton:hover{
+    outline: 0;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.submitButton:focus{
+    outline: 0;
+    opacity: 0.6;
+    cursor: pointer;
+}

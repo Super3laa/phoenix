@@ -1,0 +1,37 @@
+@media only screen and (max-width: 600px) {
+    .footer{
+        background-color: #1a1a1a;
+        width: 100%;
+        display: grid;
+        grid-auto-flow: row;
+        grid-gap:10px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .footer{
+        background-color: #1a1a1a;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap:10px;
+    }
+}
+.AboutSocial{
+    margin:auto;
+    text-align: center;
+    color: wheat;
+}
+.fa {
+    padding: 15px;
+    font-size: 27px;
+    width: 65px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }

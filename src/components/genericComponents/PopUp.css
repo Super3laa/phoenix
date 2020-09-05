@@ -1,0 +1,81 @@
+.PopUp{
+    z-index: 2;
+    position: fixed;
+    width: 50%;
+    background: #fffffff7;
+    border-radius: 3px;
+    height: 80%;
+    padding: 30px;
+    left: 25%;
+    text-align: right;
+    color: black;
+    overflow: auto;
+    bottom: 10%;
+    top: 10%;
+    box-shadow: 0vw 0vh 3vh #343a40;
+}
+.Selector{
+    padding: 0.5vh 0vh 0.5vh 0vh;
+    /* margin: 3px; */
+    border: none;
+    background-color: #fefefe;
+    color: black;
+    font-size: 3.2vh;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}    
+.Selector:focus{
+    transition: 0.5s;
+    border-radius: 0;
+    outline: 0;
+}
+.Selector:hover{
+    opacity: 0.8;
+    border-radius: 0;
+}
+.FieldPopUp{
+    display: grid;
+    grid-gap: 2vh;
+    grid-template-rows: 50fr 50fr;
+    text-align: left;
+}
+.FieldPopUp>h1{
+    font-size: 3vh;
+    margin: 0;
+    padding-top: 10px;
+}
+.FieldPopUp>input{
+    font-size: 3vh;
+    text-align: left;
+    padding: 0.2vh;
+    outline: 0;
+    border-width: 0 0 0.3vh;
+    background: inherit;
+    border-color: gray;
+}
+.FieldPopUp>input:focus{
+    outline: 0;
+    border-width: 0 0 0.3vh;
+    border-color: #ff4e50;
+}
+.PopUp>Button{
+    width: 100%;
+    height: 8vh;
+    border: 0;
+    background:#ff4e50;
+    color: white;
+    font-size: 3.5vh;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-bottom: 1vh;
+}
+.PopUp>Button:focus{
+    outline: 0;
+    cursor: pointer;
+}
+.PopUp>Button:hover{
+    outline: 0;
+    opacity: 0.8;
+    cursor: pointer;
+}

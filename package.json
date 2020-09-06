@@ -2,7 +2,7 @@
   "name": "alaa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://{Super3laa}.github.io/{phoenix}",
+  "homepage": "http://Super3laa.github.io/phoenix",
   "dependencies": {
     "-": "0.0.1",
     "@alaaessam/custom-popup": "^1.0.1",

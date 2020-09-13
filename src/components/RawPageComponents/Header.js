@@ -18,10 +18,10 @@ export default function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link  style ={{color:"wheat"}} href="/">Home</Nav.Link>
-            <Nav.Link style ={{color:"wheat"}} href="/Articles">Articles</Nav.Link>
-            <Nav.Link style ={{color:"wheat"}} href="/Projects">Projects</Nav.Link>
-            <Nav.Link style ={{color:"wheat"}} href="#contactUs">Contact Us</Nav.Link>
+            <Nav.Link  style ={{color:"wheat"}} href="#/">Home</Nav.Link>
+            <Nav.Link style ={{color:"wheat"}} href="#/Articles">Articles</Nav.Link>
+            <Nav.Link style ={{color:"wheat"}} href="#/Projects">Projects</Nav.Link>
+            <Nav.Link style ={{color:"wheat"}} href="#/PCBQA">Q&A</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

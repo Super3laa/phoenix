@@ -1,0 +1,18 @@
+.QATile{
+    padding: 8px;
+    margin: 8px;
+    box-shadow: 0px 0px 3px grey;
+}
+.Question{
+    font-size: 22px;
+    font-weight: 600;
+    overflow: auto;
+    margin: 2px;
+}
+.Answer{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 2px;  
+    overflow: auto;
+ 
+}

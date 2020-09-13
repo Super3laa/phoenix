@@ -1,0 +1,31 @@
+[
+    {
+        "Q":"Eagle dosen't Mirror the arduino Uno, What should i do ?",
+        "A":"Try mirror the arduino uno before moving it into the working place as the free version of Eagle dosen't let you exceed dimensions of 10cm*10cm."
+    },
+    {
+        "Q":"How should i calculate the values of my components ?",
+        "A":"well in Capacitors it's recommended yo use 100uF at the input power line and 100nF after the regulator output for filteration, For the value of the resistors you can just apply ohm's law at the voltage node you're attaching the led to but i would recommend to use the value 1K Ohm ."
+    },{
+        "Q":"What layers should i select to print on my PCB ?",
+        "A":"As we're working on the bottom layer of the PCB select bottom layer , PADs and Vias in case you have jumbers in your design and DON'T Select the top layer."
+    },{
+        "Q":"I cannot find a bluetooth in components, What should i do?",
+        "A":"two solutions you can search for a Bluetooth module library fo eagle or just put 6 pin pinheader and connect them with respect to the bluetooth pins order."
+    },{
+        "Q":"How to put the PCB in the ACID ?",
+        "A":"Just pour the acid in a blastic box that you wont use again as it will be poisonous and put your PCB untill the copper is gone for like 30 min give or take depending on your PCB size."
+    },{
+        "Q":"How to print the design on the PCB Board ?",
+        "A":"First make sure you cleaned the PCB very well then put the desgin on the board and iron it like ironing your shirt for like 20min."
+    },{
+        "Q":"What should i do if some traces are cutted and not printed fully ?",
+        "A":"if it's just one or two traces you can usea nonremovable marker or corrector pin to connect the trace and if most of the design are not printed just clean the PCB and re print the design."
+    },{
+        "Q":"How should i choose my drill tip ?",
+        "A":"it depends on your components footprint size but i would recommend 1mm for the whole design except rosetta terminal and switch 1.5mm."
+    },{
+        "Q":"I'm using lable tool to name the wire but it's not working ,What should i do ?",
+        "A":"Use name tool it's below the lable tool and start namig your wire and it will generate the lable automatically for you."
+    }
+]

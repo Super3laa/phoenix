@@ -11,7 +11,7 @@ export default function RawPage(props) {
         <ContactUs />
         <div className="AboutSocial">
           <div>
-            <a href="#" className="fa fa-facebook"></a>
+            <a href="https://www.facebook.com/PhoenixCampOfficial" target="_blank" className="fa fa-facebook"></a>
           </div>
           <br />
           <p>Stay in touch with us on SocialMedia</p>

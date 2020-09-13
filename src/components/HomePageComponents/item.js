@@ -4,7 +4,7 @@ import github from "./github.png";
 import npm from "./npm.png";
 import Medium from "./Medium.png";
 export default function Item(props) {
-  const imgPath = "http://localhost:3000/images/" + encodeURI(props.content.image);
+  const imgPath = "http://www.phoeinx.ninja/images/" + encodeURI(props.content.image);
   return (
     <React.Fragment>
       <div className="Item" style={props.style}>
